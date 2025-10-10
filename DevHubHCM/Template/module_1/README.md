@@ -10,7 +10,7 @@
 
 ## 📝 Notes
 
-(Write your notes here)
+Module 1
 
 ## 📸 Screenshots
 
