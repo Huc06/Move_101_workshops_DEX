@@ -10,11 +10,15 @@
 
 ## 📝 Notes
 
-(Write your notes here)
+
 
 ## 📸 Screenshots
 
 Add screenshots to `screenshots/` folder
+
+![Swap interface](./screenshots/pic1.png)
+
+![Liquidity pages](./screenshots/pic2.png)
 
 ## 📅 Completion
 
