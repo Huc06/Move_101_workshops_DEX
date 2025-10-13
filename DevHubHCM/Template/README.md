@@ -2,11 +2,11 @@
 
 ## 👤 Personal Info
 
-- **Full Name**: 
-- **GitHub**: @
+- **Full Name**: Anh Quan
+- **GitHub**: @DioAnh
 - **Discord**: 
-- **Telegram**: @
-- **Sui Wallet**: `0x...`
+- **Telegram**: @0902692685
+- **Sui Wallet**: 0xd5319359f90996a39a7ae3e995c94651059c56f7522392d80711f4caacac15e3
 
 ## 📊 Progress
 
@@ -26,3 +26,4 @@
 
 **Start Date**: YYYY-MM-DD  
 **Completion Date**: YYYY-MM-DD
+
