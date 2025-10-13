@@ -10,16 +10,16 @@
 
 ## 📦 Deployment Info
 
-- **Token Name**: 
-- **Token Symbol**: 
-- **Decimals**: 
-- **Package ID**: `0x...`
-- **TreasuryCap ID**: `0x...`
+- **Token Name**: Ryu Coin
+- **Token Symbol**: RTK 
+- **Decimals**: 9
+- **Package ID**: `0x71824fcb680da9a1f7915bf4d665874c539363d3e51b319bd6e45f1be19ed55b`
+- **TreasuryCap ID**: `0x71c1ab168028f5d1c2acb90013c8f4db10fe127bc34e4d2c831c25718d65079f`
 
 ## 🔗 Transactions
 
-- **Deploy TX**: https://suiexplorer.com/txblock/...?network=testnet
-- **Mint TX**: https://suiexplorer.com/txblock/...?network=testnet
+- **Deploy TX**: https://suiscan.xyz/testnet/object/0x71824fcb680da9a1f7915bf4d665874c539363d3e51b319bd6e45f1be19ed55b/contracts
+- **Mint TX**: 0x71824fcb680da9a1f7915bf4d665874c539363d3e51b319bd6e45f1be19ed55b::ryu_token::RYU_TOKEN
 
 ## 📂 Files
 
@@ -28,5 +28,5 @@ Add your code to:
 
 ## 📅 Completion
 
-- **Submission Date**: 
-- **Status**: ⏳ Not Started / 🚧 In Progress / ✅ Completed
+- **Submission Date**: 13/10/2025
+- **Status**: ✅ Completed
