@@ -10,7 +10,7 @@
 
 ## 📝 Notes
 
-(Write your notes here)
+Module 1
 
 ## 📸 Screenshots
 
@@ -18,6 +18,6 @@ Add screenshots to `screenshots/` folder
 
 ## 📅 Completion
 
-- **Submission Date**: 
-- **Status**: ⏳ Not Started / 🚧 In Progress / ✅ Completed
+- **Submission Date**: 10/10/2025
+- **Status**: ✅ Completed
 
