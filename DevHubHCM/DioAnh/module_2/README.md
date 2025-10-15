@@ -23,8 +23,7 @@
 
 ## 📂 Files
 
-Add your code to:
-- `sources/your_token.move`
+DevHubHCM\DioAnh\module_2
 
 ## 📅 Completion
 
