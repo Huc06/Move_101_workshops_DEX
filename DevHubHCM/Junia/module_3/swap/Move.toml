@@ -1,0 +1,13 @@
+[package]
+name = "swap"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+junia_coin = { local = "../junia_coin" }
+g2_coin = { local = "../g2_coin" }
+
+[addresses]
+swap = "0x0"
+junia_coin = "0xecbb87d8411231dd245c18fe110a9385f412558d4a8df891ef82005f10184c50"
+g2_coin = "0x0f3be0664d55886ab72de21a6776ac79d764c276fec6da7d333655497b65795e"
