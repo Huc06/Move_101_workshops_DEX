@@ -1,0 +1,115 @@
+# Add your screenshots here
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
+Component structure diagram:
+
+App
+├── Header
+│   ├── Logo
+│   ├── NavigationMenu
+│   │   ├── NavLink ("Trade")
+│   │   ├── NavLink ("Liquidity")
+│   │   ├── NavLink ("xSUI")
+│   │   ├── NavLink ("Vaults")
+│   │   ├── NavLink ("Portfolio")
+│   │   ├── NavLink ("Bridge")
+│   │   └── NavLink ("Leaderboard")
+│   └── HeaderActions
+│       ├── NetworkStatus
+│       ├── TvlDisplay
+│       ├── ConnectWalletButton
+│       └── UserProfileIcon
+│
+├── PageContent (Switches based on route)
+│   │
+│   ├── SwapPage
+│   │   ├── InfoBanner ("Introducing xSUI...")
+│   │   └── SwapWidget
+│   │       ├── TokenInput (From)
+│   │       │   ├── TokenSelector
+│   │       │   └── BalanceDisplay
+│   │       ├── SwapDirectionButton
+│   │       └── TokenInput (To)
+│   │           ├── TokenSelector
+│   │           └── BalanceDisplay
+│   │
+│   ├── LiquidityPage
+│   │   ├── TvlChart
+│   │   ├── TotalSwapVolumeChart
+│   │   ├── InfoBanner ("Momentum & Buildpad...")
+│   │   └── LiquidityPoolsSection
+│   │       ├── PoolFilters
+│   │       │   ├── FilterButton
+│   │       │   ├── SearchBar
+│   │       │   └── FeeTierDropdown
+│   │       └── PoolTable
+│   │           ├── TableHeader
+│   │           └── PoolTableRow
+│   │               ├── TokenPairInfo
+│   │               └── AddLiquidityButton
+│   │
+│   ├── PortfolioPage
+│   │   ├── UserStatsPanel
+│   │   │   ├── StatCard ("Tier")
+│   │   │   ├── StatCard ("Rank")
+│   │   │   ├── StatCard ("TVL")
+│   │   │   ├── StatCard ("Volume")
+│   │   │   └── ReferralCard
+│   │   └── InfoBanner ("Introducing xSUI...")
+│   │
+│   └── LeaderboardPage
+│       └── LeaderboardTable
+│           ├── TabSelector ("Tier", "TVL", "Volume", etc.)
+│           ├── TableHeader
+│           └── LeaderboardRow
+│
+└── Footer
+    ├── SocialLinks
+    └── VersionInfo
+
+
+
+User Flow Diagram:
+
+graph TD
+    A[Start] --> B(Landing Page / Swap Interface)
+
+    subgraph "Trade Path"
+        B -- Select 'From' & 'To' Tokens --> B1(Input Amount)
+        B1 -- Click "Connect Wallet" --> C{Wallet Connected?}
+        C -- No --> D[Prompt Wallet Connection]
+        D --> E[Wallet Connected]
+        C -- Yes --> E
+        E -- "Swap" Button Enabled --> B1
+        B1 -- Click "Swap" --> F[Confirm Transaction in Wallet]
+        F -- Success --> G[Transaction Confirmation & Balance Update]
+    end
+
+    subgraph "Liquidity Path"
+        B -- Click "Liquidity" in Header --> H(Liquidity Page - TVL/Volume Charts & Pool List)
+        H -- Search or Filter Pools --> H
+        H -- Click "Add Liquidity" --> I[Add Liquidity Interface]
+        I -- Requires Wallet --> C
+        H -- Click "Remove Liquidity" on existing position --> I_remove[Remove Liquidity Interface]
+        I_remove -- Requires Wallet --> C
+    end
+
+    subgraph "Portfolio Path"
+        B -- Click "Portfolio" in Header --> J(Portfolio Page)
+        J -- Requires Wallet --> C
+        E -- View User Stats on Page J --> K[Display: Tier, Rank, TVL, Volume, Referral Code]
+        J -- Click "Start Earning" --> L[Navigate to Staking/Farming Page]
+        J -- Click "My Referrals" --> M[Navigate to Referral Management Page]
+    end
+
+    subgraph "Leaderboard Path"
+        B -- Click "Leaderboard" in Header --> N(Leaderboard Page)
+        N -- Switch Tabs (Tier, TVL, Volume) --> N
+    end
+
+    G --> B

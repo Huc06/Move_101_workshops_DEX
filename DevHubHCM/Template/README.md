@@ -2,11 +2,11 @@
 
 ## 👤 Personal Info
 
-- **Full Name**: 
+- **Full Name**:
 - **GitHub**: @
-- **Discord**: 
+- **Discord**:
 - **Telegram**: @
-- **Sui Wallet**: `0x...`
+- **Sui Wallet**: 0x...
 
 ## 📊 Progress
 
@@ -18,9 +18,9 @@
 
 ## 🏆 Final Result
 
-- **Live URL**: 
+- **Live URL**:
 - **Mainnet Package**: `0x...`
-- **Demo Video**: 
+- **Demo Video**:
 
 ---
 
