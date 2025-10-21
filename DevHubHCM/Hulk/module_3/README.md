@@ -2,33 +2,33 @@
 
 ## ✅ Tasks
 
-- [ ] Create Pool structure (2 tokens)
-- [ ] Implement deposit functions (2 tokens)
-- [ ] Implement swap function (Token A → Token B)
-- [ ] Implement swap function (Token B → Token A)
+- [x] Create Pool structure (2 tokens)
+- [x] Implement deposit functions (2 tokens)
+- [x] Implement swap function (Token A → Token B)
+- [x] Implement swap function (Token B → Token A)
 - [ ] Set exchange rate
 - [ ] Write tests
-- [ ] Deploy to testnet
-- [ ] Test swap transactions
+- [x] Deploy to testnet
+- [x] Test swap transactions
 
 ## 📦 Deployment Info
 
 - **Token A**: HulkToken
 - **Token B**: Girlfriend
-- **TreasuryCap ID A**: `0xdd39227fd2e4b0609df230b5004099f140dc7dcfb3f3a5d73afb11e725643aa7`
-- **TreasuryCap ID B**: `0x6a17ac8f46a001fa5f4b3b3d0a743eeae391c110f78573a94eaf6a14a33f194f`
-- **Package ID A**: `0xeac0cc41b176b5f9429843b46eceaa48500e5f47732abd903079917ad03819a1`
-- **Package ID B**: `0x68c78dd9fd7276eb0b1ae3b0912358423194825ee4754f200b85f9d8c32ec7a5`
-- **Pool ID**: `0xe687b60c35e4c45fee21c4872018552a0c1fdd4dd12eed4297a9d1d5c0b9d6cc`
+- **TreasuryCap ID A**: `0x664c292315e40173c6c6a578c76c418c1e9d2e21f9b28bea12a846d101941313`
+- **TreasuryCap ID B**: `0x375fda4f40a545322b662bcd90d8945350a051c1993fd4f0465a21dfe428e56d`
+- **Package ID A**: `0x71a07c9a90824015c53d5c902e0cf8fb70e7f6e86f641fe0c17e9937d49e172e`
+- **Package ID B**: `0x20958ffe5e9ed0be143822c218fb0d72e0cca73ee17acb080378d1ff9b970544`
+- **Pool ID**: `0xacba92299fea101b08e89b896010f90efc0b0c2cad217f414255536937322344`
 - **Exchange Rate**: 1 TOKEN_A = 1 TOKEN_B
 
 ## 🔗 Transactions
 
-- **Deploy TX**: https://suiscan.xyz/testnet/object/0x16332e0f90a48642f8c1371df3ed5c50f17ff7f92f9dfb0cb384d6ad548853f5/contracts
-- **Create Pool TX**: https://suiscan.xyz/testnet/tx/9XUK77Ee996TtE7mSsBZdbQRkSuUFTUUnyuYfy4Vbewz
-- **Deposit TX**: https://suiscan.xyz/testnet/tx/7oK5q2fhchzCouJSfasELC3iE2roLwDRW3fvVFpi9xhm
-- **Swap TX 1**: https://suiscan.xyz/testnet/object/0x6df023de5da6930255f62b62ab006dc17f614bfbb1892c054a19187109e3bf18/tx-blocks
-- **Swap TX 2**:
+- **Deploy TX**: https://suiscan.xyz/testnet/object/0x91531e57e6d877ab580f2e496080a81d41f7198c529003a59ccf2375c0637eaa/contracts
+- **Create Pool TX**: https://suiscan.xyz/testnet/tx/3ASEn39KAeZwwiC6ttCM4L5D6qt2C6hJ6oFhYLoxi8aB
+- **Deposit TX**: https://suiscan.xyz/testnet/tx/4XyF6eKcHXnBBVk21znDXroDPn3HTcRP5AEsznytrw6Q
+- **Swap TX 1**: https://suiscan.xyz/testnet/object/0x3e6f28675658f1f522e51ddb8276aa8156fcabd6da41451cb3ab13e3be8d3087/tx-blocks
+- **Swap TX 2**: same
 
 ## 📂 Files
 
