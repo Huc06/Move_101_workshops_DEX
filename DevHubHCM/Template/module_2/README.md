@@ -2,11 +2,11 @@
 
 ## ✅ Tasks
 
-- [ ] Create your token (e.g., GOLD, SILVER, RUBY...)
-- [ ] Implement `init` function
-- [ ] Implement `mint` function
-- [ ] Deploy to testnet
-- [ ] Mint test tokens
+- [✅] Create your token (e.g., GOLD, SILVER, RUBY...)
+- [✅] Implement `init` function
+- [✅ ] Implement `mint` function
+- [✅ ] Deploy to testnet
+- [✅] Mint test tokens
 
 ## 📦 Deployment Info
 
@@ -18,7 +18,7 @@
 
 ## 🔗 Transactions
 
-- **Deploy TX**: https://suiexplorer.com/txblock/...?network=testnet
+- **Deploy TX**:https://suiexplorer.com/txblock/...?network=testnet 
 - **Mint TX**: https://suiexplorer.com/txblock/...?network=testnet
 
 ## 📂 Files
