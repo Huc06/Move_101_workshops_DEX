@@ -2,9 +2,9 @@
 
 ## ✅ Tasks
 
-- [✅] Run project: `pnpm install && pnpm dev`
-- [✅] Explore swap interface at `/`
-- [✅] Explore liquidity pages at `/liquidity`
+- [x] Run project: `pnpm install && pnpm dev`
+- [x] Explore swap interface at `/`
+- [x] Explore liquidity pages at `/liquidity`
 - [ ] Draw component structure diagram
 - [ ] Draw user flow diagram
 
@@ -20,4 +20,3 @@ Add screenshots to `screenshots/` folder
 
 - **Submission Date**: 
 - **Status**: ⏳ Not Started / 🚧 In Progress / ✅ Completed
-
