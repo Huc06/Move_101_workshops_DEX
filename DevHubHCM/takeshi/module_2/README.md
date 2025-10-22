@@ -2,11 +2,11 @@
 
 ## ✅ Tasks
 
-- [ ] Create your token (e.g., GOLD, SILVER, RUBY...)
-- [ ] Implement `init` function
-- [ ] Implement `mint` function
-- [ ] Deploy to testnet
-- [ ] Mint test tokens
+- [ ok ] Create your token (e.g., GOLD, SILVER, RUBY...)
+- [ ok ] Implement `init` function
+- [ ok ] Implement `mint` function
+- [ ok ] Deploy to testnet
+- [ ok ] Mint test tokens
 
 ## 📦 Deployment Info
 
@@ -29,4 +29,4 @@ Add your code to:
 ## 📅 Completion
 
 - **Submission Date**: 13/10/2025
-- **Status**: ⏳ Not Started / 🚧 In Progress / ✅ Completed
+- **Status**: ✅ Completed
