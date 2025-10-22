@@ -18,6 +18,5 @@ Add screenshots to `screenshots/` folder
 
 ## 📅 Completion
 
-- **Submission Date**: 10/10/2025
-- **Status**: ✅ Completed
-
+- **Submission Date**: 
+- **Status**: ⏳ Not Started / 🚧 In Progress / ✅ Completed
